@@ -1,4 +1,4 @@
-import random, art, replit
+import random, art
 
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 user_cards = []
@@ -67,7 +67,6 @@ keep_playing = True
 yes_no = input("Would you like to play BlackJack? Type 'y' or 'n': ")
 while keep_playing:
   if yes_no == 'y':
-    replit.clear()
     Blackjack()
   else:
     keep_playing = False
